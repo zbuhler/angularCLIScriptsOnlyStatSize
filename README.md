@@ -2,7 +2,7 @@
 
 This project was created in reference to https://github.com/webpack-contrib/webpack-bundle-analyzer/issues/147#issuecomment-371045968.
 
-The anguluar CLI project when creating the scripts bundle only concatonates the scripts and is not wrapped in webpack funciton. This results in the webpack-bundle-analyzer defaulting to the stats.json information rather than showing gzip information and parse size.
+The Anguluar CLI project when creating the scripts bundle only concatonates the scripts and is not wrapped in a webpack funciton. This results in the webpack-bundle-analyzer defaulting to the stats.json information rather than showing gzip information and parse size.
 
 To reproduce:
 
